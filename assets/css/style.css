@@ -1,0 +1,237 @@
+@font-face {
+    font-family: 'Bellota-LightItalic';
+    src: url('../fonts/Bellota-LightItalic.otf');
+}
+@font-face {
+    font-family: 'Bellota-BoldItalic';
+    src: url('../fonts/Bellota-BoldItalic.otf');
+}
+
+body {
+    line-height: 30px;
+    background-color: #e7dfdf;
+}
+
+a {
+    color: #20AAE5;
+    text-decoration: none;
+}
+
+.top_bar {
+    width: 100%;
+    min-width: 100px;
+    height: 50px;
+    background-color: #2ecc71;
+    border-bottom: 0.25cm solid #2ecc71;
+    margin: 0 0 10px 0;
+    display: inline-flex;
+    position: fixed;
+    z-index: 10;
+}
+
+.logo a {
+    font-family: 'Bellota-BoldItalic', sans-serif;
+    margin-left: 10px;
+    font-size: 170%;
+    position: relative;
+    top: 9px;
+    text-shadow: #101010 0.5px 0.5px 0px;
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+nav {
+    float: right;
+    right: 1px;
+    position: absolute;
+    margin: 10px;
+}
+
+nav a {
+    text-align: right;
+    position: relative;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a:hover {
+    border-bottom: 7px solid #e67e22;
+    color: #fff;
+}
+.wrapper{
+    margin: 0 auto;
+    top: 60px;
+    position:relative;
+    padding: 0 15px;
+    width: 80%;
+    min-width: 950px; 
+    background-color: #ffffff;
+}
+.column{
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #f9f8f8;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px #fdf9f9;
+    z-index:-1;
+}
+.user_details {
+width: 300px;
+float: left;
+margin-bottom: 20px;
+
+}
+
+.user_details_left_right{
+    font-family: 'Bellota-BoldItalic';
+    width: 150px;
+    display: inline-block;
+    position: absolute;
+}
+.user_details_left_right a{
+    text-decoration: none;
+}
+
+.user_details img{
+    height: 130px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.main_column{
+    float: right;
+    width: 70%;
+    z-index: -1;
+    min-height: 160px;
+    
+}
+.post_form{
+    width: 100%;
+}
+.post_form textarea{
+    width: 81%;
+    height: 60px;
+    border-radius: 5px;
+    margin-right: 5px;
+    border: 1px solid #0a0a0a;
+    font-size: 12px;
+    padding: 5px;
+}
+textarea:focus {
+    outline: 0;
+}
+.post_form input[type="submit"]{
+    width: 11%;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2ecc71;
+    font-family: 'Bellota-LightItalic', sans-serif;
+    color: #ffffff;
+    text-shadow: #2ecc71 0.5px 0.5px 0px;
+    font-size: 90%;
+    position: absolute;
+    outline: 0;
+    margin: 0;
+}
+
+.post_form input[type="submit"]:active{
+    padding: 5px 4px 4px 5px;
+}
+.status_post {
+    width: 96%;
+    font-size: 17px;
+    padding: 0px 5px;
+    min-height: 75px;
+    cursor: pointer;
+}
+
+.status_post a {
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: auto;
+}
+
+
+.post_profile_pic{
+    float: left;
+    margin-right: 10px;
+}
+
+.post_profile_pic img {
+    margin-top: 7px;
+    border-radius: 5px;
+}
+
+#comment_iframe {
+    max-height: 250px;
+    width: 100%;
+    margin-top: 5px;
+
+}
+
+.comment_section {
+    padding: 0 5px 5px 5px;
+}
+
+.comment_section img {
+    margin: 0 3px 3px 3px;
+    border-radius: 3px;
+}
+
+#comment_form textarea {
+    border-color: #D3D3D3;
+    width: 85%;
+    height: 35px;
+    border-radius: 5px;
+    color: #616060;
+    font-size: 14px;
+    margin: 3px 3px 3px 5px;
+}
+
+#comment_form input[type="submit"] {
+    border: none;
+    background-color: #20AAE5;
+    color: #156588;
+    border-radius: 5px;
+    width: 13%;
+    height: 35px;
+    margin-top: 3px;
+    position: absolute;
+    font-family: 'Bellota-LightItalic', sans-serif;
+    text-shadow: #2ecc71 0.5px 0.5px 0px;
+}
+
+.newsfeedPostOptions {
+    padding: 0;
+    text-align: none;
+    color:#20AAE5;
+    border: none;
+}
+
+.newsfeedPostOptions iframe {
+    border: 0px;
+    height: 17px;
+    width: 200px;
+}
+
+.comment_like {
+    background-color: #fff;
+    border: none;
+    font-size: 14px;
+    color: #3498db;
+    padding: 0;
+    height:auto;
+    width: 0;
+    margin: 0;;
+}
+
+.like_value{
+    display: inline;
+    font-size: 14px;
+}
